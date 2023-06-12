@@ -5,7 +5,7 @@ Babbel Email Guesser is a service that offers email guessing capabilities for em
 
 ## Assumption
 
-Based on the given sample data, assuming that there is one field for the `fullName`, which must contain the first name and last name and second field will contain the company `domain`. So implemented the business logic of API based on above assumption. So this API will only return email if fullName contain exact two words (first and last name) and domain name matches the sample data provided.
+Based on the given sample data, assuming that there is one field for the `fullName`, which must contain the first name and last name and second field will contain the company `domain`. So this will make `GET` request to API endpoint with two query params `fullName` and `domain` which will return the email if fullName contain exact two words (first and last name) and domain name matches the sample data provided.
 
 
 ## Feature
